@@ -1,0 +1,30 @@
+{
+  "name": "pc",
+  "version": "1.0.0",
+  "description": "Photo gallery based on AWS S3",
+  "main": "index.js",
+  "scripts": {
+    "cloudphoto": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kehtolaulu/pc.js.git"
+  },
+  "keywords": [
+    "node.js",
+    "javascript",
+    "aws",
+    "s3",
+    "cloud"
+  ],
+  "author": "Emilya Garipova",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kehtolaulu/pc.js/issues"
+  },
+  "homepage": "https://github.com/kehtolaulu/pc.js#readme",
+  "dependencies": {
+    "aws-sdk": "^2.799.0",
+    "yargs": "^16.1.1"
+  }
+}

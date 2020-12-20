@@ -35,11 +35,11 @@ AWS_REGION=us-east-1
 ## Usage
 
 ```bash
-npm run cloudphoto upload -a album -p /path/to/photos/dir # upload photos from provided directory
+node index.js upload -a album -p /path/to/photos/dir # upload photos from provided directory
 
-npm run cloudphoto download -a album -p /path/to/photos/dir # download all photos from given album
+node index.js download -a album -p /path/to/photos/dir # download all photos from given album
 
-npm run cloudphoto list # list albums
+node index.js list # list albums
 
-npm run cloudphoto list -a album # list given album photos
+node index.js list -a album # list given album photos
 ```
